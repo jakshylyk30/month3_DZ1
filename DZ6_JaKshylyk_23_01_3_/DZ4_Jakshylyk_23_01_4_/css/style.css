@@ -1,0 +1,26 @@
+div{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.div2 {
+    margin-left: 10px;
+    padding: 60px;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(241, 234, 234, 0.59);
+    border-radius: 20px;
+}
+
+
+img{
+    transition: 1s;
+}
+img:hover {
+    transform: rotate(720deg) scale(2);
+}
